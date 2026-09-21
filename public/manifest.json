@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "Sales Analyzer",
+  "short_name": "Sales Analyzer",
+  "description": "محلل شيتات ومبيعات ذكي وسريع يعمل بدون إنترنت لتحليل أي ملف إكسيل بدقة مع فلاتر ديناميكية وحفظ الملفات الأخيرة.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A3D62",
+  "theme_color": "#0A3D62",
+  "file_handlers": [
+    {
+      "action": "/",
+      "name": "Spreadsheets",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "accept": {
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [".xlsx"],
+        "application/vnd.ms-excel": [".xls"],
+        "text/csv": [".csv"]
+      }
+    }
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
